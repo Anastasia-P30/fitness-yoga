@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Йога | Контакты</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  @@include('parts/_preloader.html')
+  
+  @@include('parts/_header.html', {
+  "activeContacts": "active"
+  })
+
+  <main class="main">
+
+    <section class="stock" style="background-image: url('images/stock/1.jpg');">
+      <div class="container">
+        <svg>
+          <use xlink:href='images/icons/sprite.svg#gift-card'></use>
+        </svg>
+        <h2 class="stock__title title">Подпишитесь на нашу рассылку и получите 1 занятие бесплатно</h2>
+        <a class="form__button" href="#">Подписаться</a>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container container--mini">
+        <svg>
+          <use xlink:href='images/icons/sprite.svg#mail-send'></use>
+        </svg>
+        <h2 class="contacts__title title">
+          Напишите нам
+        </h2>
+        <h3 class="contacts__subtitle">Используйте форму ниже, чтобы написать нашей команде.</h3>
+        <div class="contacts__email">
+          <p>Наша электронная почта:</p>
+          <a class="contacts__links" href="email:yoga@mail.com">yoga@mail.com</a>
+        </div>
+        <div class="contacts__tel">
+          <p>Наш телефон:</p>
+          <a class="contacts__links" href="tel:+79428615823">+79428615823</a>
+        </div>
+        <div class="contacts__socials socials">
+          <a class="contacts__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+          <a class="contacts__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a class="contacts__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+          <a class="contacts__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#youtube"></use>
+            </svg>
+          </a>
+        </div>
+        <form class="form">
+          <input type="text" class="form__input" placeholder="Имя*" required>
+          <input type="text" class="form__input" placeholder="Фамилия*" required>
+          <input type="email" class="form__input" placeholder="Адрес электронной почты*" required>
+          <input type="email" class="form__input" placeholder="Тема сообщения*" required>
+          <textarea class="form__textarea" placeholder="Текст Вашего сообщения*" required></textarea>
+          <button class="form__button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  @@include('parts/_footer.html')
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

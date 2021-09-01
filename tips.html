@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Йога | Рекомендации</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+   <div class="loader">
+   <div class="loader__dash loader__dash--uno"></div>
+   <div class="loader__dash loader__dash--dos"></div>
+   <div class="loader__dash loader__dash--tres"></div>
+   <div class="loader__dash loader__dash--cuatro"></div>
+ </div>
+
+   <header class="header">
+
+  
+
+   <div class="header__wrapper">
+     <nav class="menu">
+       <a class="logo" href="index.html">
+         <img class="logo-image" src="images/icons/logo.png" alt="logo">
+       </a>
+       <div class="menu__burger">
+       <span></span>
+     </div>
+       <ul class="menu__list">
+         <li class="menu__item">
+           <a class="menu__link @@activeHome" href="index.html">Главная</a>
+         </li>
+         <li class="menu__item">
+           <a class="menu__link active" href="tips.html">Рекомендации</a>
+         </li>
+         <li class="menu__item">
+           <a class="menu__link @@activeAbout" href="about.html">О нас</a>
+         </li>
+         <li class="menu__item">
+           <a class="menu__link @@activeContacts" href="contacts.html">Контакты</a>
+         </li>
+       </ul>
+     </nav>
+     <a class="menu__button" href="#">Расписание</a>
+   </div>
+ </header>
+
+  <main class="main">
+    <section class="subscription tips__subscription">
+      <div class="container">
+        <svg>
+          <use xlink:href="images/icons/sprite.svg#spa"></use>
+        </svg>
+        <h2 class="subscription__title title">Советы и новости о йоге</h2>
+        <h3 class="subscription__text">Зарегистрируйтесь и получайте первыми новости в мире йоги</h3>
+        <form class="form">
+          <input type="text" class="form__input" placeholder="Имя*" required>
+          <input type="text" class="form__input" placeholder="Фамилия*" required>
+          <input type="email" class="form__input" placeholder="Адрес электронной почты*" required>
+          <button class="form__button" type="submit">Зарегистрироваться</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="blog">
+      <h2 class="visually-hidden">Блог</h2>
+      <div class="container">
+        <div class="blog__box">
+          <article class="blog__item">
+            <div class="blog__wrapper-img">
+              <img class="blog__img" data-src="images/blog/1.jpg" src="images/1x1.png"
+                alt="девушка стоит на одной ноге и тянет руку">
+            </div>
+            <a class="blog__title" href="#">
+              <h3 class="blog__name">
+                Асаны для начинающих
+              </h3>
+            </a>
+            <div class="blog__text">
+              <p>В ходе одной тренировки концентрируются на отработке нескольких асан, чтобы наилучшим образом отточить
+                технику. Важно следить за самочувствием. При головокружении, сильной слабости практику сразу прекращают.
+              </p>
+            </div>
+            <a class="blog__link" href="#">Читать больше</a>
+          </article>
+          <article class="blog__item">
+            <div class="blog__wrapper-img">
+              <img class="blog__img" data-src="images/blog/2.jpg" src="images/1x1.png" alt="две девушки качают пресс">
+            </div>
+            <a class="blog__title" href="#">
+              <h3 class="blog__name">
+                Йога как фитнес
+              </h3>
+            </a>
+            <div class="blog__text">
+              <p>Йога – понятие в индийской культуре, в широком смысле означающее совокупность различных духовных,
+                психических и физических практик, разрабатываемых в разных направлениях индуизма и буддизма и нацеленных
+                на управление психическими и физиологическими функциями организма с целью достижения индивидуумом
+                возвышенного духовного и психического состояния.</p>
+            </div>
+            <a class="blog__link" href="#">Читать больше</a>
+          </article>
+          <article class="blog__item">
+            <div class="blog__wrapper-img">
+              <img class="blog__img" data-src="images/blog/3.jpg" src="images/1x1.png" alt="групповое занятие фитнесом">
+            </div>
+            <a class="blog__title" href="#">
+              <h3 class="blog__name">
+                Фитнес и йога – кратко о сути
+              </h3>
+            </a>
+            <div class="blog__text">
+              <p>На занятия йогой приходят, прежде всего, для развития душевных и моральных качеств, обретения мира,
+                познания самого себя, снятия стресса. Вместе с тем упражнения асана способны подарить гармонично
+                развитое тело и улучшить здоровье – однако, эти эффекты «побочные». Основная работа ведется на духовном,
+                а не на физическом уровне.</p>
+            </div>
+            <a class="blog__link" href="#">Читать больше</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="attach">
+      <div class="container">
+        <div class="attach__socials socials">
+          <a class="attach__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+          <a class="attach__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a class="attach__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+          <a class="attach__link social-link" href="#">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#youtube"></use>
+            </svg>
+          </a>
+        </div>
+        <h2 class="attach__title title">Присоединяйтесь к нашему сообществу</h2>
+        <div class="attach__text">
+          <p>
+            У нас публикуются много интересных статей и другого контента о здоровом образе жизни, Вы сами можете стать
+            их автором.
+          </p>
+        </div>
+        <a class="attach__links" href="#">Скачать приложение</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="footer__box">
+      <div class="footer__left">
+        <div class="footer__wrapper">
+          <h2 class="footer__title title">Узнай что <br> тобой движет</h2>
+          <form class="footer__form">
+            <label class="footer__label">Адрес Вашей электронной почты
+              <input class="footer__inputs" type="email" required>
+            </label>
+            <button class="footer__button" type="submit">Зарегистрироваться</button>
+          </form>
+          <span class="footer__conf">Мы уважаем Вашу конфиденциальность</span>
+        </div>
+      </div>
+
+      <div class="footer__right">
+                
+        <div class="footer__item">
+          <input class="footer__input-checkbox" type="checkbox" id="accordion-1">
+          <label class="footer__label-checkbox" for="accordion-1">
+            <span class="footer__name">Студия</span>
+          </label>
+          <a class="footer__descr" href="#">Наши тренинги</a>
+        </div>
+        
+         <div class="footer__item">
+           <input class="footer__input-checkbox" type="checkbox" id="accordion-2">
+           <label class="footer__label-checkbox" for="accordion-2">
+             <span class="footer__name">Обучение</span>
+           </label>
+           <a class="footer__descr" href="#">Наши инструкторы</a>
+         </div>
+
+        <div class="footer__item">
+          <input class="footer__input-checkbox" type="checkbox" id="accordion-3">
+          <label class="footer__label-checkbox" for="accordion-3">
+            <span class="footer__name">Адрес</span>
+          </label>
+          <a class="footer__descr" href="#">г. Москва, ул. Бабушкина, дом 3</a>
+        </div>
+
+        <div class="footer__item">
+          <input class="footer__input-checkbox" type="checkbox" id="accordion-4">
+          <label class="footer__label-checkbox" for="accordion-4">
+            <span class="footer__name">Наши социальные сети</span>
+          </label>
+          <div class="footer__socials socials">
+            <a class="footer__link social-link" href="#">
+              <svg>
+                <use xlink:href="images/icons/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+            <a class="footer__link social-link" href="#">
+              <svg>
+                <use xlink:href="images/icons/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+            <a class="footer__link social-link" href="#">
+              <svg>
+                <use xlink:href="images/icons/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+            <a class="footer__link social-link" href="#">
+              <svg>
+                <use xlink:href="images/icons/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

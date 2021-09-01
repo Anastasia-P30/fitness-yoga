@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Йога | Главная</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  @@include('parts/_preloader.html')
+
+  @@include('parts/_header.html', {
+  "activeHome": "active"
+  })
+
+  <main class="main">
+
+    <section class="prime" style="background-image: url(images/prime/1.jpg)">
+      <div class="container">
+        <div class="prime__wrapper wow animate__fadeInLeft animate__animated" data-wow-duration="800">
+          <h1 class="prime__title">Фитнес-йога</h1>
+          <h2 class="prime__subtitle">Добро пожаловать на территорию здоровья и красоты! Умело сочетая занятия фитнесом
+            и йогой, мы улучшаем Ваше физическое и душевное состояние. </h2>
+          <a class="prime__link" href="#">Записаться на занятие</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container container--mini">
+        <h2 class="benefits__title title">Познакомьтесь с фитнес-йогой</h2>
+        <div class="benefits__box">
+          <div class="benefits__item wow animate__fadeInLeft animate__animated" data-wow-duration="800">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#fitness"></use>
+            </svg>
+            <h3 class="benefits__subtitle">1 этап</h3>
+            <div class="benefits__descr">
+              <p>
+                Сначала мы поработаем над общим физическим состоянием: будем выполнять кардио и растяжку.
+              </p>
+            </div>
+          </div>
+          <div class="benefits__item wow animate__fadeInLeft animate__animated" data-wow-duration="800"
+            data-wow-delay=".3s">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#relaxation"></use>
+            </svg>
+            <h3 class="benefits__subtitle">2 этап</h3>
+            <div class="benefits__descr">
+              <p>
+                Затем добавим силовые тренировки, если это будет рекомендовано Вашим тренером
+              </p>
+            </div>
+          </div>
+          <div class="benefits__item wow animate__fadeInLeft animate__animated" data-wow-duration="800"
+            data-wow-delay=".6s">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#good-review"></use>
+            </svg>
+            <h3 class="benefits__subtitle">3 этап</h3>
+            <div class="benefits__descr">
+              <p>
+                Постигнем асаны йоги, не забывая про предыдущие тренировки.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="benefits__inner">
+          <div class="benefits__unit">
+            <div class="benefits__wrapper">
+              <img class="benefits__img" data-src="images/benefits/1.jpg" src="images/1x1.png"
+                alt="Девушка делает растяжку">
+            </div>
+            <div class="benefits__description">
+              <h3 class="benefits__title title">Тренинги</h3>
+              <div class="benefits__text">
+                <p>
+                  Занятия фитнесом - хорошая работа с телом, благодаря чему человек может выработать красивую осанку,
+                  поддерживать себя в тонусе,
+                  формировать свою фигуру в соответствии со своими желаниями, оздоровиться в целом. <br> <br>
+
+                  Йога подходит больше для людей, которые любят спокойный и размеренный образ жизни. Но мало кто готов
+                  уделять столь большое внимание медитативным практикам, которые
+                  рекомендуются в йоге. Направление фитнес-йоги учитывает все эти моменты. Группы стараются разбивать по
+                  уровню подготовки.
+                  Асаны даются,
+                  начиная с самых простых, потепенно подготавливая человека к более сложным. Большое внимание уделяется
+                  технике дыхания.
+                </p>
+                <a class="benefits__link" href="#">Посмотреть тренинги</a>
+              </div>
+            </div>
+          </div>
+          <div class="benefits__unit">
+            <div class="benefits__description benefits__description--2">
+              <h3 class="benefits__title title">Расписание</h3>
+              <div class="benefits__text">
+                <p>
+                  Наши занятия проходят в различное время так, что каждый может найти для себя удобный вариант. Начиная
+                  с 8 утра до 22 часов наши инструкторы проводят занятия для групп. В утренни часы посетителям
+                  предоставляется скидка либо скидочный купон на посещение других занятий нашего клуба.
+                </p>
+                <a class="benefits__link" href="#">Расписание</a>
+              </div>
+            </div>
+            <div class="benefits__wrapper">
+              <img class="benefits__img" data-src="images/benefits/2.jpg" src="images/1x1.png" alt="Групповое занятие фитнесом">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="instructors">
+      <div class="container">
+        <div class="instructors__box">
+          <div class="instructors__wrap">
+            <img class="instructors__image" src="images/instructors/1.jpg" alt="инструктор по йоге">
+          </div>
+          <div class="instructors__descr">
+            <svg>
+              <use xlink:href="images/icons/sprite.svg#sun"></use>
+            </svg>
+            <h2 class="instructors__title title">Познакомьтесь со своими инструкторами</h2>
+            <div class="instructors__text">
+              <p>
+                У нас работают инструкторы с большим опытом работы. Взаимодействуя со своим инструктором, Вы повышаете эффективность своих занятий.
+              </p>
+            </div>
+            <a class="instructors__link" href="#">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="articles">
+      <div class="container">
+        <h2 class="articles__title title">Новости, статьи, советы</h2>
+        <div class="articles__info">
+          <p>
+            В этом разделе мы публикуем заметки из мира фитнеса и йоги.
+          </p>
+        </div>
+        <div class="articles__box">
+          <article class="articles__item">
+            <a class="articles__img-wrapper" href="#">
+              <img class="articles__img" data-src="images/articles/1.jpg" src="images/1x1.png"
+                alt="девушка занимается йогой лежа">
+            </a>
+            <h3 class="articles__name">
+              <a class="articles__link" href="#">О пользе воды</a>
+            </h3>
+            <blockquote class="articles__text">
+                На занятиях йогой и фитнесом мы теряем определенное количество жидкости, которое необходимо восполнять. При этом пить необходимо чистую воду.
+            </blockquote>
+          </article>
+          <article class="articles__item">
+            <a class="articles__img-wrapper" href="#">
+              <img class="articles__img" data-src="images/articles/2.jpg" src="images/1x1.png"
+                alt="девушка занимается йогой стоя">
+            </a>
+            <h3 class="articles__name">
+              <a class="articles__link" href="#">Правильное дыхание</a>
+            </h3>
+            <blockquote class="articles__text">
+                Успех Вашей тренировки в немалой степени обеспечивает правильное дыхание, несоблюдение этой техники может не осложнить тренировку.
+            </blockquote>
+          </article>
+          <article class="articles__item">
+            <a class="articles__img-wrapper" href="#">
+              <img class="articles__img" data-src="images/articles/3.jpg" src="images/1x1.png"
+                alt="девушка занимается на боку">
+            </a>
+            <h3 class="articles__name">
+              <a class="articles__link" href="#">Питание при занятиях йогой</a>
+            </h3>
+            <blockquote class="articles__text">
+                Для достижения наилучших результатов на занятиях стоит придерживаться определенных правил в приеме пищи. Это касается как времени, так и содержания Вашей тарелки.
+            </blockquote>
+          </article>
+        </div>
+      </div>
+    </section>
+
+     <section class="subscription">
+      <div class="container">
+        <svg>
+          <use xlink:href="images/icons/sprite.svg#spa"></use>
+        </svg>
+        <h2 class="subscription__title title">Советы и новости о йоге</h2>
+        <h3 class="subscription__text">Зарегистрируйтесь и получайте первыми новости в мире йоги</h3>
+        <form class="form">
+          <input type="text" class="form__input" placeholder="Имя*" required>
+          <input type="text" class="form__input" placeholder="Фамилия*" required>
+          <input type="email" class="form__input" placeholder="Адрес электронной почты*" required>
+          <button class="form__button" type="submit">Зарегистрироваться</button>
+        </form>
+      </div>
+    </section>
+
+   <section class="attachment">
+      <div class="container">
+        <h2 class="visually-hidden">Приложение и контакты</h2>
+        <div class="attachment__box">
+          <div class="attachment__item">
+            <h3 class="attachment__title title">Давайте двигаться</h3>
+            <div class="attachment__descr">
+              <p>
+               Занятия в группе мотивируют и заряжают нас положительной энергией, так давайтете же продолжать заряжаться даже за пределами спортзала. В наших соцсетях Вы найдете много единомышленников.
+              </p>
+            </div>
+            <div class="attachment__socials socials">
+              <a class="attachment__link social-link" href="#">
+                <svg>
+                  <use xlink:href="images/icons/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+              <a class="attachment__link social-link" href="#">
+                <svg>
+                  <use xlink:href="images/icons/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+              <a class="attachment__link social-link" href="#">
+                <svg>
+                  <use xlink:href="images/icons/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+              <a class="attachment__link social-link" href="#">
+                <svg>
+                  <use xlink:href="images/icons/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="attachment__item">
+            <h3 class="attachment__title title">Скачайте наше приложение</h3>
+            <div class="attachment__descr">
+              <p>
+                У нашего клуба есть мобильное приложение, которое поможет Вам не забывать о тренировках и правильно питаться.
+              </p>
+            </div>
+            <a class="attachment__links" href="#">Скачать приложение</a>
+          </div>
+        </div>
+      </div>
+      <div class="attachment__slider">
+        <div class="attachment__items">
+          <img class="attachment__image" src="images/attachments/1.jpg" alt="девушка делает растяжку">
+        </div>
+        <div class="attachment__items">
+          <img class="attachment__image" src="images/attachments/2.jpg" alt="парень поднял ноги">
+        </div>
+        <div class="attachment__items">
+          <img class="attachment__image" src="images/attachments/3.jpg" alt="девушка висит на канатах">
+        </div>
+        <div class="attachment__items">
+          <img class="attachment__image" src="images/attachments/4.jpg" alt="девушка делает наклон">
+        </div>
+        <div class="attachment__items">
+          <img class="attachment__image" src="images/attachments/5.jpg" alt="девушка стоит на одной ноге">
+        </div>
+      </div>
+    </section> 
+
+  </main>
+
+  @@include('parts/_footer.html')
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

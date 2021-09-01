@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Йога | О нас</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  @@include('parts/_preloader.html')
+
+  @@include('parts/_header.html', {
+  "activeAbout": "active"
+  })
+
+  <main class="main">
+    <section class="prime top" style="background-image: url(images/top/1.jpg)">
+      <div class="container">
+        <div class="prime__wrapper top__wrapperwow animate__fadeInLeft animate__animated" data-wow-duration="800">
+          <h1 class="prime__title top__title">Фитнес-йога</h1>
+          <h2 class="prime__subtitle top__subtitle">Проводим занятия для людей с различной степенью подготовки.</h2>
+          <a class="prime__link top__link" href="#">Записаться на пробное занятие</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="container container--mini">
+        <h2 class="feature__title title">Мы объединяем йогу и фитнес</h2>
+        <div class="feature__text">
+          <p>Фитнес-йога вобрала в себя достоинства йоги и фитнеса, гармонично их объединив. Она прекрасно подходит и
+            тем,
+            кто ведёт малоподвижный образ жизни, и тем, кто постоянно пребывает в движении. Этой практикой могут
+            заниматься люди всех возрастов независимо от уровня подготовки.</p>
+        </div>
+        <svg>
+          <use xlink:href="images/icons/sprite.svg#down-arrow"></use>
+        </svg>
+
+        <div class="feature__box">
+          <div class="feature__wrapper-img">
+            <img class="feature__image" data-src="images/feature/6.jpg" src="images/1x1.png"
+              alt="групповое занятие фитнесом">
+          </div>
+          <div class="feature__wrapper-img">
+            <img class="feature__image" data-src="images/feature/2.jpg" src="images/1x1.png"
+              alt="девушка стоит на голове">
+          </div>
+          <div class="feature__wrapper-img">
+            <img class="feature__image" data-src="images/feature/3.jpg" src="images/1x1.png"
+              alt="девушка делает мостик">
+          </div>
+          <div class="feature__wrapper-img">
+            <img class="feature__image" data-src="images/feature/4.jpg" src="images/1x1.png" alt="девушка на шпагате">
+          </div>
+          <div class="feature__wrapper-img">
+            <img class="feature__image" data-src="images/feature/5.jpg" src="images/1x1.png"
+              alt="девушка делает наклоны">
+          </div>
+          <div class="feature__wrapper-img">
+            <img class="feature__image" data-src="images/feature/1.jpg" src="images/1x1.png"
+              alt="девушка делает наклоны">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mentors">
+      <h2 class="mentors__title title">Познакомьтесь с нашими инструкторами</h2>
+      <div class="mentors__box">
+        <a class="mentors__item elena" href="#" style="background-image: url(images/mentors/2.jpg)"></a>
+        <a class="mentors__item diana" href="#" style="background-image: url(images/mentors/3.jpg)"></a>
+        <a class="mentors__item michail" href="#" style="background-image: url(images/mentors/4.jpg)"> </a>
+        <a class="mentors__item olga" href="#" style="background-image: url(images/mentors/5.jpg)"></a>
+      </div>
+    </section>
+
+    <section class="mail">
+      <div class="container">
+        <div class="mail__wrap">
+          <h2 class="mail__title title">Подпишитесь на нашу рассылку и узнавайте новости о йоге и фитнесе первыми</h2>
+          <form class="form">
+            <input type="text" class="form__input" placeholder="Имя*" required>
+            <input type="text" class="form__input" placeholder="Фамилия*" required>
+            <input type="email" class="form__input" placeholder="Адрес электронной почты*" required>
+            <button class="form__button" type="submit">Зарегистрироваться</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  @@include('parts/_footer.html')
+
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
